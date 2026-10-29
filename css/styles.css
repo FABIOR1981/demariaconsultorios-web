@@ -658,6 +658,8 @@ h3 { font-size: 1.2rem; }
 .pie p { margin: 0.25rem 0; }
 .pie__nota { font-size: 0.82rem; }
 .pie__credito { white-space: nowrap; }
+.pie__linea { font-size: 0.8rem; white-space: nowrap; }
+@media (max-width: 1000px) { .pie__linea { white-space: normal; font-size: 0.82rem; } }
 
 /* ---------- RESPONSIVE ---------- */
 @media (max-width: 960px) {
